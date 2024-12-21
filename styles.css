@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/bkg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .login-contenedor{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .login-contenedor .login-h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  .login-contenedor .login-input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+  }
+  .login-input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+  .login-input-box input::placeholder{
+    color: #fff;
+  }
+  .login-input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+  
+  }
+  .login-contenedor .login-recordar-olvidar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .login-recordar-olvidar label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  
+  }
+  .login-recordar-olvidar a{
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  .login-recordar-olvidar a:hover{
+    text-decoration: underline;
+  }
+  .login-contenedor .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  .login-contenedor .login-registro-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  
+  }
+  .login-registro-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .login-registro-link p a:hover{
+    text-decoration: underline;
+  }
+
+
+
+  .registro-contenedor{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .registro-contenedor .registro-h1{
+    font-size: 28px;
+    text-align: center;
+  }
+  .registro-contenedor .registro-input-box{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    
+    margin: 30px 0;
+  }
+  .registro-input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+  .registro-input-box input::placeholder{
+    color: #fff;
+  }
+  .registro-input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+  
+  }
+  .registro-contenedor .login-recordar-olvidar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .login-recordar-olvidar label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  
+  }
+  .login-recordar-olvidar a{
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  .login-recordar-olvidar a:hover{
+    text-decoration: underline;
+  }
+  .registro-contenedor .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  .registro-contenedor .registro-login-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  
+  }
+  .registro-login-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .registro-login-link p a:hover{
+    text-decoration: underline;
+  }

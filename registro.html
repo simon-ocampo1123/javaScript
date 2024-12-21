@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="registro-contenedor">
+    <form id="formRegister" action="login.html" method="post" onsubmit="return validarFormRegister(this)">
+      <h1 class="registro-h1">Formulario de Registro</h1>
+      <div class="registro-input-box">
+        <input type="text" placeholder="Nombre y Apellido" name="fullName">
+      </div>
+      <div class="registro-input-box">
+        <input type="email" placeholder="Email" name="email">
+      </div>
+      <div class="registro-input-box">
+        <input type="text" placeholder="Usuario" name="user">
+      </div>
+      <div class="registro-input-box">
+        <input type="password" placeholder="Contraseña" name="pass">
+      </div>
+      <div class="registro-input-box">
+        <input type="password" placeholder="Confirmar contraseña" name="confirmPass">
+      </div>
+      <button type="submit" class="btn">Crear Cuenta</button>
+      <div class="registro-login-link">
+        <p>Ya tienes una cuenta?<a href="login.html">Iniciar sesion</a></p>
+      </div>
+    </form>
+  </div>
+  <script src="src/js/validaciones.js""></script>
+</body>
+</html>
